@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './component/Header';
 import HeroSection from './component/HeroSection';
+import Footer from './component/Footer';
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
    <>
     <Header />
     <HeroSection />
+    <Footer />
     </>
   
   )
