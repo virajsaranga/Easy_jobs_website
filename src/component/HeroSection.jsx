@@ -33,6 +33,7 @@ const HeroSection = () => {
         Find Your Dream Job Today
       </Typography>
 
+
       <Typography
         variant="h6"
         sx={{
@@ -61,7 +62,7 @@ const HeroSection = () => {
           py: 1.5,
           borderRadius: '30px',
           textTransform: 'capitalize',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+          boxShadow: '0 4px 12px rgba(138, 128, 128, 0.3)',
           '&:hover': {
             backgroundColor: '#e64a19',
           },
