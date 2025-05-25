@@ -6,7 +6,7 @@ import Footer from './component/Footer';
 
 function App() {
  
-//
+//routers
   return (
    <>
     <Header />
