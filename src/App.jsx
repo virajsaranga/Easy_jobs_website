@@ -1,20 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Header from './component/Header';
-import HeroSection from './component/HeroSection';
-import Footer from './component/Footer';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import JobCategories from './components/JobCategories';
+import Footer from './components/Footer';
 
 function App() {
- 
-//routers
+  const [showCategories, setShowCategories] = useState(false);
+
   return (
-   <>
-    <Header />
-    <HeroSection />
-    <Footer />
+    <>
+      <Header />
+      <HeroSection onBrowseClick={() => setShowCategories(true)} />
+      {showCategories && <JobCategories />}
+      <Footer />
     </>
-  
-  )
+  );
 }
 
-export default App
+export default App;
