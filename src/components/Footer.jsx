@@ -47,7 +47,7 @@ const Footer = () => {
           </Box>
         </Grid>
 
-        {/* Contact Info */}
+        
         <Grid item xs={12} md={4}>
           <Typography variant="h6" sx={{ fontWeight: 'bold', mb: 1 }}>
             Contact Us
