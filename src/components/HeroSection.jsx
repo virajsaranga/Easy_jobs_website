@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 
 //hero section functions
+
+
 const HeroSection = ({ onBrowseClick }) => {
   return (
     <Box
