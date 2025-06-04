@@ -15,7 +15,7 @@ const Footer = () => {
       }}
     >
       <Grid container spacing={4}>
-        {/* Logo and About */}
+       
         <Grid item xs={12} md={4}>
           <Typography variant="h6" sx={{ fontWeight: 'bold', mb: 1 }}>
             EasyJobs
