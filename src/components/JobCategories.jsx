@@ -12,6 +12,8 @@ import {
   Button,
 } from '@mui/material';
 
+
+//cateogories
 const categories = [
   { id: 1, name: 'Software Development', jobs: 125 },
   { id: 2, name: 'Marketing & Sales', jobs: 78 },
