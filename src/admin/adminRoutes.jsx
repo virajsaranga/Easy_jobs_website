@@ -8,6 +8,7 @@ import ManageAdmins from './pages/ManageAdmins';
 import AdminNavbar from './components/AdminNavbar';
 import AdminRoute from '../routes/AdminRoute'; 
 
+// This file defines the routes for the admin section of the application, including login, dashboard, job management, and admin management pages.
 const AdminRoutes = () => {
   return (
     <Routes>
