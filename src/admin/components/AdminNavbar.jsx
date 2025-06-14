@@ -13,6 +13,7 @@ const AdminNavbar = () => {
     navigate('/admin/login');
   };
 
+  // The handleLogout function clears the admin token from local storage and redirects to the admin login page.
   return (
     <AppBar position="static">
       <Toolbar>
