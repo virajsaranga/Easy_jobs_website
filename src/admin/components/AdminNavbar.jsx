@@ -3,6 +3,8 @@ import React from 'react';
 import { AppBar, Toolbar, Button } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
 
+
+// This component renders the admin navigation bar with links to different admin pages and a logout button.
 const AdminNavbar = () => {
   const navigate = useNavigate();
 
