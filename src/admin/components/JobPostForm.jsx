@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Box, TextField, Button } from '@mui/material';
 
+// This component allows admins to post new job listings by entering a job title and submitting the form.
 const JobPostForm = () => {
   const [title, setTitle] = useState('');
 
