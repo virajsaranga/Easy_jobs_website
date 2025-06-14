@@ -1,4 +1,4 @@
-
+// frontend/admin/components/JobPostForm.jsx
 import React, { useState } from 'react';
 import { Box, TextField, Button } from '@mui/material';
 
