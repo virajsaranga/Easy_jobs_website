@@ -6,7 +6,7 @@ import Dashboard from './pages/Dashboard';
 import ManageJobs from './pages/ManageJobs';
 import ManageAdmins from './pages/ManageAdmins';
 import AdminNavbar from './components/AdminNavbar';
-import AdminRoute from '../routes/AdminRoute'; // We'll create this in user routes
+import AdminRoute from '../routes/AdminRoute'; 
 
 const AdminRoutes = () => {
   return (
