@@ -1,4 +1,4 @@
-
+// frontend/admin/components/JobListAdmin.jsx
 import React from 'react';
 import { Box, Paper, Typography, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
